@@ -61,7 +61,7 @@ export {}
 //   const basicTooltipContent =
 //     ifo.version >= 3.1
 //       ? t(
-//           'For the private sale, each eligible participant will be able to commit any amount of CAKE up to the maximum commit limit, which is published along with the IFO voting proposal.',
+//           'For the private sale, each eligible participant will be able to commit any amount of CAKE up to the maximum commit limit, which is published along with the ISPO voting proposal.',
 //         )
 //       : t(
 //           'For the basic sale, Max CAKE entry is capped by minimum between your average CAKE balance in the iCAKE, or the pool’s hard cap. To increase the max entry, Stake more CAKE into the iCAKE',
@@ -205,7 +205,7 @@ export {}
 //                 label={t('Vested percentage:')}
 //                 value={`${poolCharacteristic.vestingInformation.percentage}%`}
 //                 tooltipContent={t(
-//                   '%percentageVested%% of the purchased token will get vested and released linearly over a period of time. %percentageTgeRelease%% of the purchased token will be released immediately and available for claiming when IFO ends.',
+//                   '%percentageVested%% of the purchased token will get vested and released linearly over a period of time. %percentageTgeRelease%% of the purchased token will be released immediately and available for claiming when ISPO ends.',
 //                   {
 //                     percentageVested: poolCharacteristic.vestingInformation.percentage,
 //                     percentageTgeRelease: new BigNumber(100)

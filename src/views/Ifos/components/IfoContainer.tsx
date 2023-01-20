@@ -33,7 +33,7 @@ const IfoContainer: React.FC<TypeProps> = ({ ifoSection, ifoSteps }) => {
       <Container>
         <IfoQuestions />
         <LinkExternal href="https://forms.gle/cyuJE8bAmy5Lk75X8" mx="auto" mt="16px">
-          {t('Apply to run an IFO!')}
+          {t('Apply to run an ISPO!')}
         </LinkExternal>
       </Container>
     </IfoLayout>
