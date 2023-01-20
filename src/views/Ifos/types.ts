@@ -21,7 +21,7 @@ export interface PoolCharacteristics {
   vestingInformation?: VestingInformation
 }
 
-// IFO data unrelated to the user returned by useGetPublicIfoData
+// ISPO data unrelated to the user returned by useGetPublicIfoData
 export interface PublicIfoData {
   isInitialized: boolean
   status: IfoStatus
