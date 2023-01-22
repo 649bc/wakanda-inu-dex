@@ -4,7 +4,7 @@ import { useWeb3React } from '@web3-react/core'
 import { Contract } from '@ethersproject/contracts'
 import { BIG_ZERO } from 'utils/bigNumber'
 
-// Retrieve IFO allowance
+// Retrieve ISPO allowance
 const useIfoAllowance = (tokenContract: Contract, spenderAddress: string, dependency?: any): BigNumber => {
   const { account } = useWeb3React()
   const [allowance, setAllowance] = useState(BIG_ZERO)

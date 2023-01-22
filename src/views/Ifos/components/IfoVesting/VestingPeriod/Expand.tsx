@@ -64,7 +64,7 @@ const Expand: React.FC<ExpandProps> = ({ data, expanded, fetchUserVestingData })
       <Info poolId={PoolIds.poolUnlimited} data={data} fetchUserVestingData={fetchUserVestingData} />
       <Info poolId={PoolIds.poolBasic} data={data} fetchUserVestingData={fetchUserVestingData} />
       <Text bold color="primary" textAlign="center" style={{ cursor: 'pointer' }} onClick={handleViewIfo}>
-        {t('View IFO')}
+        {t('View ISPO')}
       </Text>
     </StyledExpand>
   )

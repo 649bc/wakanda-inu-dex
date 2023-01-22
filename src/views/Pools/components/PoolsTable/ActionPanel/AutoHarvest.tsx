@@ -114,7 +114,7 @@ const AutoHarvestAction: React.FunctionComponent<DeserializedPool> = ({
             {[VaultPosition.Flexible, VaultPosition.None].includes(vaultPosition) && (
               <UnstakingFeeCountdownRow vaultKey={vaultKey} isTableVariant />
             )}
-            {/* IFO credit here */}
+            {/* ISPO credit here */}
           </Flex>
         </ActionContent>
       </Box>

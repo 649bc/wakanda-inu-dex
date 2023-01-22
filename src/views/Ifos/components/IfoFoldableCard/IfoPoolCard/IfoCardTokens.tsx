@@ -151,8 +151,8 @@ export {}
 //           <Box>
 //             <MessageText display="inline">
 //               {publicIfoData.status === 'finished'
-//                 ? t('Activate PancakeSwap Profile to take part in next IFO‘s!')
-//                 : t('You need an active PancakeSwap Profile to take part in an IFO!')}
+//                 ? t('Activate PancakeSwap Profile to take part in next ISPO‘s!')
+//                 : t('You need an active PancakeSwap Profile to take part in an ISPO!')}
 //             </MessageText>{' '}
 //             <MessageTextLink href="/ifo#ifo-how-to" color="#D67E0A" display="inline">
 //               {t('How does it work?')} »
@@ -194,7 +194,7 @@ export {}
 //       message = (
 //         <Message my="24px" p="8px" variant="danger">
 //           <Box>
-//             <MessageText display="inline">{t('You don’t have any iCAKE available for IFO public sale.')}</MessageText>{' '}
+//             <MessageText display="inline">{t('You don’t have any iCAKE available for ISPO public sale.')}</MessageText>{' '}
 //             <MessageTextLink display="inline" fontWeight={700} href="/ifo#ifo-how-to" color="failure">
 //               {t('How does it work?')} »
 //             </MessageTextLink>
@@ -274,7 +274,7 @@ export {}
 //           {ifov31Msg || (
 //             <>
 //               <Text textAlign="center" fontSize="14px">
-//                 {t('To participate in the next IFO, lock some CAKE in the fixed-term staking CAKE pool!')}
+//                 {t('To participate in the next ISPO, lock some CAKE in the fixed-term staking CAKE pool!')}
 //               </Text>
 //               <MessageTextLink href="/ifo#ifo-how-to" textAlign="center">
 //                 {t('How does it work?')} »
