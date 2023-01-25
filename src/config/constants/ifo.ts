@@ -15,7 +15,7 @@ const ifos: Ifo[] = [
     token: bscTokens.great,
     decimal: 9,
     fundsToRaise: '0.03 Bnb',
-    offeringAmount: '10000000000000000',
+    offeringAmount: '200000',
     articleUrl: 'https://wakandainu',
     twitterUrl: 'https://twitter.com/wakandainu',
     description: 'The Great Token Project is a test project',
