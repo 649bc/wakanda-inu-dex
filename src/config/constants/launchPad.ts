@@ -1,6 +1,7 @@
 export default {
   test: {
     // 56: '0x95367d0A3c84937F73Db19597627906140cA8B71',
-    56: '0xc0b180E79a2860e1bc43A0aEE9C06e12dF33d859',
+    // 56: '0xc0b180E79a2860e1bc43A0aEE9C06e12dF33d859',
+    56: '0xA19f318ae9acAF6a4ac96DA743228d2A1bCBa96c',
   },
 }
