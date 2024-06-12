@@ -14,7 +14,7 @@ const GetTokenModal: React.FC<Partial<Props>> = ({ currency, onDismiss }) => {
       <ModalBody maxWidth="288px">
         <Image src={`/images/tokens/${currency.address}.png`} width={72} height={72} margin="auto" mb="24px" />
         <Text mb="16px">
-          {t('You’ll need %symbol% tokens to participate in the IFO!', { symbol: currency.symbol })}
+          {t('You’ll need %symbol% tokens to participate in the ISPO!', { symbol: currency.symbol })}
         </Text>
         <Text mb="24px">
           {t('Get %symbol%, or make sure your tokens aren’t staked somewhere else.', { symbol: currency.symbol })}

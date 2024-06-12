@@ -124,6 +124,14 @@ export const bscTokens = {
   wkd: WKD_MAINET,
   cake: CAKE_MAINNET,
   gmi: new Token(ChainId.BSC, '0x93D8d25E3C9A847a5Da79F79ecaC89461FEcA846', 18, 'GMI', 'Gamifi', 'https://gamifi.gg/'),
+  great: new Token(
+    ChainId.BSC,
+    '0x47741a86f55b10C1aBe1e6493a200AC5eCB8A5B3',
+    9,
+    'GREAT',
+    'GREAT Token Project',
+    'https://google.com/',
+  ),
   tlos: new Token(
     ChainId.BSC,
     '0xb6C53431608E626AC81a9776ac3e999c5556717c',

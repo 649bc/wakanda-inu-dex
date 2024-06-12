@@ -6,22 +6,20 @@ import { Ifo } from './types'
 export const cakeBnbLpToken = new Token(ChainId.BSC, CAKE_BNB_LP_MAINNET, 18, 'WKD-BNB LP')
 
 const ifos: Ifo[] = [
-  // {
-  //   id: 'peel',
-  //   address: '0x35Bb6Dd4E8C63491057c32621c8cDdE43BabE201',
-  //   isActive: false,
-  //   name: 'Meta Apes ($PEEL)',
-  //   symbol: 'PEEL',
-  //   token: bscTokens.peel,
-  //   decimal: 18,
-  //   fundsToRaise: '2 Bnb',
-  //   offeringAmount: '83333333333333328',
-  //   articleUrl:
-  //     'https://pancakeswap.finance/voting/proposal/bafkreibomj5nilvyckdro7ztmm62syt55dcfnonxs63ji6hm2ijq35lru4',
-  //   twitterUrl: 'https://twitter.com/MetaApesGame',
-  //   description:
-  //     'Meta Apes is a free-to-play, play-and-earn massively multiplayer online (MMO) strategy game designed for mobile and the first game to launch on the BNB Sidechain with their own dedicated chain, Ape Chain.',
-  // },
+  {
+    id: 'great',
+    address: '0x47741a86f55b10C1aBe1e6493a200AC5eCB8A5B3',
+    isActive: true,
+    name: 'Great Test Project ($GREAT)',
+    symbol: 'GREAT',
+    token: bscTokens.great,
+    decimal: 9,
+    fundsToRaise: '0.02 Bnb',
+    offeringAmount: '10000000',
+    articleUrl: 'https://wakandainu.com',
+    twitterUrl: 'https://twitter.com/wakandainu',
+    description: 'The Great Token Project is a test project',
+  },
   // {
   //   id: 'trivia',
   //   address: '0x23C520d8227524E2cDD00360358864fF3fFC36b4',

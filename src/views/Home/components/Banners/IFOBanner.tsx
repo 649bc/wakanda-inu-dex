@@ -105,12 +105,12 @@ const IFOBanner = () => {
         <S.LeftWrapper>
           <S.StyledSubheading>{status === 'live' ? t('Live') : t('Soon')}</S.StyledSubheading>
           <S.StyledHeading scale="xl" ref={headingRef}>
-            {ifoName} {t('IFO')}
+            {ifoName} {t('ISPO')}
           </S.StyledHeading>
           <NextLinkFromReactRouter to="/ifo">
             <Button>
               <Text color="invertedContrast" bold fontSize="16px" mr="4px">
-                {t('Go to IFO')}
+                {t('Go to ISPO')}
               </Text>
               <ArrowForwardIcon color="invertedContrast" />
             </Button>
@@ -128,7 +128,7 @@ const IFOBanner = () => {
           {!isMobile ? (
             <Image
               src={IFOImage}
-              alt={`IFO ${activeIfoWithBlocks?.id ?? 'XXX'}`}
+              alt={`ISPO ${activeIfoWithBlocks?.id ?? 'XXX'}`}
               width={291}
               height={211}
               placeholder="blur"
@@ -136,7 +136,7 @@ const IFOBanner = () => {
           ) : (
             <Image
               src={IFOMobileImage}
-              alt={`IFO ${activeIfoWithBlocks?.id ?? 'XXX'}`}
+              alt={`ISPO ${activeIfoWithBlocks?.id ?? 'XXX'}`}
               width={150}
               height={150}
               placeholder="blur"

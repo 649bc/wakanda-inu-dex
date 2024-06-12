@@ -54,7 +54,7 @@ const config: (
       ],
     },
     {
-      label: 'IFO',
+      label: 'ISPO',
       href: '/ifo',
       icon: RocketIcon,
       hideSubNav: true,
