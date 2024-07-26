@@ -31,7 +31,7 @@ const NotEnoughTokensModal: React.FC<NotEnoughTokensModalProps> = ({ tokenSymbol
           symbol: tokenSymbol,
         })}
       </Text>
-      <Button mt="24px" as="a" external href="/swap">
+      <Button mt="24px" as="a" external href="https://pancakeswap.finance/swap?outputCurrency=BNB&inputCurrency=0x5344C20FD242545F31723689662AC12b9556fC3d">
         {t('Buy')} {tokenSymbol}
       </Button>
       <StyledLink href="https://yieldwatch.net" external>
