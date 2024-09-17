@@ -64,7 +64,7 @@ export {}
 //       <Message variant="warning" mb="16px">
 //         <Box>
 //           <Text fontSize="14px" color="#D67E0A">
-//             {t('This IFO has token vesting. Purchased tokens are released over a period of time.')}
+//             {t('This ISPO has token vesting. Purchased tokens are released over a period of time.')}
 //           </Text>
 //           <MessageTextLink external href={url} color="#D67E0A" display="inline">
 //             {t('Learn more in the vote proposal')}
@@ -116,7 +116,7 @@ export {}
 //         toastSuccess(
 //           t('Successfully Enabled!'),
 //           <ToastDescriptionWithTx txHash={receipt.transactionHash}>
-//             {t('You can now participate in the %symbol% IFO.', { symbol: ifo.token.symbol })}
+//             {t('You can now participate in the %symbol% ISPO.', { symbol: ifo.token.symbol })}
 //           </ToastDescriptionWithTx>,
 //         )
 //       },
@@ -157,7 +157,7 @@ export {}
 //   }, [maximumTokenEntry, userCurrencyBalance])
 
 //   const basicTooltipContent = t(
-//     'For the private sale, each eligible participant will be able to commit any amount of CAKE up to the maximum commit limit, which is published along with the IFO voting proposal.',
+//     'For the private sale, each eligible participant will be able to commit any amount of CAKE up to the maximum commit limit, which is published along with the ISPO voting proposal.',
 //   )
 
 //   const unlimitedToolipContent = (
@@ -253,7 +253,7 @@ export {}
 //           {vestingInformation.percentage > 0 && <SmallAmountNotice url={articleUrl} />}
 //           <Text color="textSubtle" fontSize="12px" mb="24px">
 //             {t(
-//               'If you don’t commit enough CAKE, you may not receive a meaningful amount of IFO tokens, or you may not receive any IFO tokens at all.',
+//               'If you don’t commit enough CAKE, you may not receive a meaningful amount of ISPO tokens, or you may not receive any ISPO tokens at all.',
 //             )}
 //             <Link
 //               fontSize="12px"

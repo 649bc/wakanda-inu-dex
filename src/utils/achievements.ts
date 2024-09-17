@@ -18,7 +18,7 @@ export {}
 //   switch (campaign.type) {
 //     case 'ifo':
 //       return {
-//         key: 'IFO Shopper: %title%',
+//         key: 'ISPO Shopper: %title%',
 //         data: {
 //           title: campaign.title as string,
 //         },
@@ -32,7 +32,7 @@ export {}
 //   switch (campaign.type) {
 //     case 'ifo':
 //       return {
-//         key: 'Committed more than $5 worth of LP in the %title% IFO',
+//         key: 'Committed more than $5 worth of LP in the %title% ISPO',
 //         data: {
 //           title: campaign.title as string,
 //         },
@@ -43,12 +43,12 @@ export {}
 // }
 
 // /**
-//  * Checks if a wallet is eligible to claim points from valid IFO's
+//  * Checks if a wallet is eligible to claim points from valid ISPO's
 //  */
 // export const getClaimableIfoData = async (account: string): Promise<Achievement[]> => {
 //   // const ifoCampaigns = ifosList.filter((ifoItem) => ifoItem.campaignId !== undefined)
 
-//   // Returns the claim status of every IFO with a campaign ID
+//   // Returns the claim status of every ISPO with a campaign ID
 //   // const claimStatusCalls = ifoCampaigns.map(({ address }) => {
 //   //   return {
 //   //     address: getPointCenterIfoAddress(),
@@ -61,7 +61,7 @@ export {}
 //     | [boolean][]
 //     | null
 
-//   // Get IFO data for all IFO's that are eligible to claim
+//   // Get ISPO data for all ISPO's that are eligible to claim
 //   const claimableIfoData = (await multicallv2(
 //     pointCenterIfoABI,
 //     claimStatuses.reduce((accum, claimStatusArr, index) => {

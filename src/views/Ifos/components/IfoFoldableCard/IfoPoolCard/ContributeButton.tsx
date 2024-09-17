@@ -34,7 +34,7 @@ export {}
 //     toastSuccess(
 //       t('Success!'),
 //       <ToastDescriptionWithTx txHash={txHash}>
-//         {t('You have contributed %amount% CAKE to this IFO!', {
+//         {t('You have contributed %amount% CAKE to this ISPO!', {
 //           amount: getBalanceNumber(amount),
 //         })}
 //       </ToastDescriptionWithTx>,
