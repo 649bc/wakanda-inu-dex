@@ -44,7 +44,7 @@ export {}
 // }
 
 // /**
-//  * Gets all data from an IFO related to a wallet
+//  * Gets all data from an ISPO related to a wallet
 //  */
 // const useGetWalletIfoData = (ifo: Ifo): WalletIfoData => {
 //   const [state, setState] = useState<WalletIfoState>(initialState)

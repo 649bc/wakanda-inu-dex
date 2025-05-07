@@ -340,7 +340,7 @@ export const PoolsSlice = createSlice({
         return { ...pool, ...livePoolData }
       })
     },
-    // IFO
+    // ISPO
     setIfoUserCreditData: (state, action) => {
       const credit = action.payload
       state.ifo = { ...state.ifo, credit }
@@ -399,7 +399,7 @@ export const PoolsSlice = createSlice({
       const userData = action.payload
       state.cakeVault = { ...state.cakeVault, userData }
     })
-    // IFO
+    // ISPO
     builder.addCase(fetchIfoPublicDataAsync.fulfilled, (state, action: PayloadAction<PublicIfoData>) => {
       const { ceiling } = action.payload
       state.ifo = { ...state.ifo, ceiling }

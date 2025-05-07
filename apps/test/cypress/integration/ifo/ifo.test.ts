@@ -1,5 +1,5 @@
-describe('IFO Page', () => {
-  it('loads Next IFO page', () => {
+describe('ISPO Page', () => {
+  it('loads Next ISPO page', () => {
     cy.visit('/ifo')
     cy.get('#current-ifo').should('be.visible')
   })

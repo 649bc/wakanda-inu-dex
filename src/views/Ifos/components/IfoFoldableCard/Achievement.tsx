@@ -122,7 +122,7 @@ const IfoAchievement: React.FC<Props> = ({ ifo }) => {
           </Text>
           <Flex>
             <Text bold mr="8px" lineHeight={1.2}>
-              {t('IFO Shopper: %title%', { title: campaignTitle })}
+              {t('ISPO Shopper: %title%', { title: campaignTitle })}
               <InlinePrize alignItems="center" ml="8px">
                 <PrizeIcon color="textSubtle" width="16px" mr="4px" />
                 {/* <Text lineHeight={1.2} color="textSubtle">

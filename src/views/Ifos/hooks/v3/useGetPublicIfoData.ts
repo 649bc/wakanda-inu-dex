@@ -34,7 +34,7 @@ export {}
 // })
 
 // /**
-//  * Gets all public data of an IFO
+//  * Gets all public data of an ISPO
 //  */
 // const useGetPublicIfoData = (ifo: Ifo): PublicIfoData => {
 //   const { address, releaseBlockNumber, version } = ifo

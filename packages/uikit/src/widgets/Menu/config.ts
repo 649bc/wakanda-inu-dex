@@ -101,7 +101,7 @@ export const links: MenuItemsType[] = [
         href: "/",
       },
       {
-        label: "IFO Token Sales",
+        label: "ISPO Token Sales",
         href: "/",
         status: status.SOON,
       },
